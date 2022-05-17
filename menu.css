@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    color: #333333;
+    text-decoration: none;
+}
+button{
+    width: 24px;
+    height: 24px;
+    margin: 10px 0px 10px 16px;
+    background-color: white;
+    border: 0px solid white;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+#menu
+{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+}
+.menu-drop
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 19px;
+}    
+#menu ul li a:hover
+{
+   color: #FFF;
+   background-color: #81B101;
+}
+a {
+    text-transform: none;
+}

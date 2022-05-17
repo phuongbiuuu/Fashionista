@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+.container {
+    width: 375px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.search-bag {
+    margin-top: 15px;
+}
+
+.search-bag>a {
+    margin-right: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.title h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    margin: 16px 10px;
+}
+
+.info {
+    margin-left: 12px;
+}
+
+a>h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.info>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    opacity: 0.8;
+    margin-top: 8px;
+}
+
+.info>span {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DD8560;
+}
+
+.minius-plus>input {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    border: 0px solid;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 343px;
+    margin-left: 16px;
+}
+
+.service-content {
+    display: flex;
+    padding: 20px 0px 20px 28px;
+    gap: 10px;
+    border-top: 1px solid rgb(245, 225, 225);
+    border-bottom: 1px solid rgb(245, 225, 225);
+
+}
+
+.service-content>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px;
+}
+
+#text {
+    width: 182.05px;
+    height: 16px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.7;
+    text-align: right;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 260px 16px 23px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.total>span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DD8560;
+}
+
+button {
+    width: 375px;
+    height: 56px;
+    background-color: #000000;
+    color: #fcfcfc;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FCFCFC;
+
+}
+button > img {
+    padding-right: 15px;
+    margin-bottom: -5px;
+}

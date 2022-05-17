@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+.container {
+    width: 375px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.search-bag {
+    margin-top: 15px;
+}
+
+.search-bag>a {
+    margin-right: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.title h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.dot:hover {
+    background: #DD8560;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.active {
+    background-color: #717171;
+}
+
+div.container1 {
+
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div.omrs-input-group {
+    margin-left: 16px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 330px;
+
+}
+#txtExp {
+    margin-left: 52px;
+}
+
+.omrs-input-underlined>input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    font-size: 1.0625rem;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.omrs-input-underlined>input:focus {
+    outline: none;
+}
+
+.omrs-input-underlined>.omrs-input-label {
+    position: absolute;
+    top: 12px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: #979797;
+    transition: top .2s;
+}
+
+.omrs-input-underlined>.omrs-input-helper {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #AAAAAA;
+}
+
+.omrs-input-underlined>input:hover {
+    background: white;
+}
+
+.omrs-input-underlined>input:focus+.omrs-input-label,
+.omrs-input-underlined>input:valid+.omrs-input-label {
+    top: 0;
+    font-size: 0.9375rem;
+    margin-bottom: 32px;
+    color: #AAAAAA;
+}
+
+.omrs-input-underlined>input {
+    background-color: white;
+}
+
+.footer>button {
+    width: 375px;
+    height: 56px;
+    background-color: #000000;
+    color: #fcfcfc;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    border: 0px;
+    margin-top: 200px;
+}

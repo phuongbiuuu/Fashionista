@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+}
+.homepage{
+    position: relative;
+    width: 375px;
+    background: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #e7eaef;
+    height: 60px;
+    line-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    margin-left: 16px;
+}
+.logo {
+    margin-top: 5px;
+    margin-left: 35px;
+}
+.search-bag>a {
+    margin-right: 20px;
+}
+.banner {
+    background-image: url(/img/image\ 10.png);
+    height: 600px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px ;
+}
+.btn input{
+    width: 253px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border: 0px solid black;
+}
+.btn input:hover{
+    background-color: green;
+    color: #e7eaef;
+}
+.font{
+    margin-top: 225px;
+    margin-left: 30px;
+}
+h2{
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+    color: #333333;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+#font2 {
+   margin-left: 30px;
+}
+#font1 {
+    margin-left: 10px;
+}
+.Retangle {
+    height: 6px;
+    width: 6px;
+    border: 0.5px solid #fcfcfc;
+    box-sizing: border-box;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+.Retangle:hover {
+    background: white;
+}
+.title {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.title h1 {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+.tab-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.tab-menu>a{
+    text-decoration: none;
+    line-height: 15px;
+    letter-spacing: 1px;
+    align-items: center;
+    vertical-align: top;
+    opacity: 0.7;
+}
+.tab-menu>a:hover{
+    font-weight: bold;
+    color: black
+}
+.product {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product>div {
+    margin: 13px;
+}
+
+.product1  {
+    width: 160px;
+    height: 200px;
+    
+}
+
+.content1{
+    width: 160px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    
+}
+.money {
+    width: 32px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #DD8560;
+}
+button {
+    width: 158px;
+    height: 48px;
+    background-color: white;
+    border:  white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 38px;
+    
+}
+button:hover {
+    background-color: rgb(3, 180, 0);
+    color: white;
+}
+.brand {
+    text-align: center;
+}
+.brand>img{
+    margin: 20px auto;
+}
+.brand-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.localbrand{
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+    align-items: center;
+}
+#brand1,#brand2 {
+    margin-top: 15px;
+}
+.img2 {
+    width: 260px;
+    height: 296px;
+    background-image: url('img/image\ 9.png');
+    margin: 35px 58px 40px 58px;
+}
+#font4 {
+    font-family: 'Bodoni Moda', serif;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #333333;
+    line-height: 0px;
+    padding-top: 60px;
+    padding-left: 90px;
+}
+#font5{
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 5.30721px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    padding-left: 102px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;  
+}
+.slide {
+    width: 165px;
+    margin: 10px;
+}
+.tag-trend > h1 {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+div.trending{
+    display: block;
+}
+.nav>ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+li{
+    padding: 10px auto;
+    display: list-item;
+}
+
+.openfashion{
+    background-color:#F2F2F2 ;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.logos > img {
+    display: flex;
+    margin: 20px auto;
+}
+.sub-content{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #555555;
+}
+.sub-content>h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon > div {
+    width: 165px;
+    margin: 10px;
+}
+.icon1>h4{
+    text-align: center;
+    color: #555555;
+}
+#img1{
+    margin-top: 20px;
+}
+.info1{
+    background-image: url('img/Rectangle\ 332.png');
+}
+.product2  {
+    width: 160px;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.sticker,
+.menu-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contact{
+    font-size: 16px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.note {
+    display: block;
+    background-color: #F2F2F2;
+    opacity: 0.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.note > p {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+
+
+
